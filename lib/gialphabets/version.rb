@@ -1,3 +1,3 @@
-module Natotranslator
+module GIalphabets
   VERSION = "0.1.0"
 end

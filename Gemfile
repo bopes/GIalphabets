@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in natotranslator.gemspec
+# Specify your gem's dependencies in GIalphabets.gemspec
 gemspec

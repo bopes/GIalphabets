@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'natotranslator/version'
+require 'GIalphabets/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "natotranslator"
-  spec.version       = Natotranslator::VERSION
+  spec.name          = "GIalphabets"
+  spec.version       = GIalphabets::VERSION
   spec.authors       = ["bopes"]
   spec.email         = ["clcblee@gmail.com"]
 
   spec.summary       = %q{Get the NATO phonetic spelling and Morse code translation for text}
   spec.description   = %q{This gem generates the NATO phonetic spelling and Morse code translation for a given input.}
-  spec.homepage      = "https://github.com/bopes/natotranslator"
+  spec.homepage      = "https://github.com/bopes/GIalphabets"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
