@@ -1,5 +1,5 @@
 module GIalphabets
-  ALPHABET_MORSE = {
+  MORSE_ALPHABET = {
     :"a" => ".-",
     :"b" => "-...",
     :"c" => "-.-.",

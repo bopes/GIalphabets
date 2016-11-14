@@ -1,5 +1,5 @@
 module GIalphabets
-  ALPHABET_NATO = {
+  NATO_ALPHABET = {
     :"a" => "Alpha",
     :"b" => "Bravo",
     :"c" => "Charlie",
