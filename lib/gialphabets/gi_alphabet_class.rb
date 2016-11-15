@@ -1,5 +1,5 @@
 module GIalphabets
-  class Alphabet
+  class GIalphabet
 
     attr_reader :letters, :word_break, :letter_break
 
