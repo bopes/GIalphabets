@@ -33,6 +33,10 @@ describe GIalphabets do
     it 'translates "67890"' do
       expect(GIalphabets::NATO.translate("67890")).to eq("Six-Seven-Eight-Nine-Zero")
     end
+
+    it "translates 'Blink 182'" do
+      expect(GIalphabets::NATO.translate("Blink 182")).to eq("Bravo-Lima-India-November-Kilo One-Eight-Two")
+    end
   end
 
   describe "Morse Code" do
