@@ -18,6 +18,11 @@ module GItalphabets
       string.gsub(/./, @dict)
     end
 
+    def decode(string)
+      string.downcase!
+      string.gsub(/./) { |c| @dict.key(c) }
+    end
+
     private
 
       def reset_dict(seed)
