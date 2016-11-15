@@ -1,3 +1,5 @@
+require_relative 'eng_alphabet'
+
 module GItalphabets
 
   def generate_seed
@@ -14,8 +16,8 @@ module GItalphabets
     private
 
       def reset_dict(seed)
-        code = Alphabet.shuffle(random: Random.new(@seed))
-        (0..Alphabet.length-1).to_a.each { |i| @dict[Alphabet[i]] = code[i] }
+        code = EngAlphabet.shuffle(random: Random.new(@seed))
+        (0..EngAlphabet.length-1).to_a.each { |i| @dict[EngAlphabet[i]] = code[i] }
       end
 
   end
