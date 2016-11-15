@@ -13,6 +13,10 @@ module GItalphabets
       reset_dict(seed)
     end
 
+    def set_seed(seed)
+      reset_dict(seed)
+    end
+
     def encode(string)
       string.downcase!
       string.gsub(/./, @dict)
